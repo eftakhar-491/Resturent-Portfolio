@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+:root {
+  --font-style: Work Sans;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.hero {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(
+      0deg,
+      rgb(16, 16, 16) -19.5%,
+      rgba(16, 16, 16, 0) 100%
+    ),
+    url(assets/hero-bg.png);
+  background-position-x: center;
+  background-repeat: no-repeat;
+}
+.hero-contant {
+  /* background-color: rgba(255, 228, 196, 0.47); */
+  width: 51%;
+  position: relative;
+  margin: 0 auto;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.hero-contant h5 {
+  color: rgb(255, 255, 255);
+  font-family: var(--font-style);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.8;
+  margin-bottom: 14px;
+}
+.hero-contant h1 {
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 22px;
+}
+.hero-contant p {
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 13.5px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  margin-bottom: 26px;
+}
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  display: block;
+  color: rgb(255, 255, 255);
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  border-radius: 8px;
+  background: rgb(82, 195, 3);
+  border: none;
+  cursor: pointer;
+  padding: 21px 32px 21px 32px;
+  margin: 32px 0px;
+}
+
+/* 2nd food list details */
+.food-list {
+  width: 100%;
+  margin-top: 90px;
+}
+.food-list-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.food-list-details p {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.6;
+  margin-bottom: 10px;
+}
+.food-list-details > h2 {
+  width: 550px;
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.all-cards {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+.card {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+.card h6 {
+  display: inline-block;
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 12px 28px 12px 28px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+
+  background-color: rgba(82, 195, 3, 0.15);
+}
+.card h2 {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 47px;
+  letter-spacing: 0%;
+  margin-bottom: 16px;
+}
+.card p {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 12.5px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.btn1 {
+  margin-top: 32px;
+}
+
+/* 3rd section  */
